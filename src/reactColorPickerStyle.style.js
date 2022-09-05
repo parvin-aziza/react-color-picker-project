@@ -4,11 +4,11 @@ const ColorPickerWrapper=styled.div`
 .backGroundClass{
     background-color:${props=>(props.colour)} ;
     width: 100%;
-    height:50vh;
+    height:100vh;
     border: 1px solid black;
 }
 .buttonClass{
-    background-color: ${props=>(props.colour)};
+    background-color:black;
     color:white;
     margin-top:10px;
     margin-bottom: 10px;
